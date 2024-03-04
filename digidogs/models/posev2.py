@@ -79,6 +79,7 @@ class SimplePose(nn.Module):
         h_outputzy = torch.cat([t.permute(0,3,2,1) for t in h_outputzy.split(size,-3)],-3)
         h_outputzy = self.decoder_heatmapszy(h_outputzy)
 
+        # === NEED TO CORRECT THIS, as this was wrong, but got ok results for WACV2024===
         h_outputxz = self.linear_heatmapsxz(patch_tokens)
         h_outputxz = h_outputxz.reshape(-1, 32, 32, 512).permute(0,3,1,2)
         size = int(h_outputxz.shape[-1])
