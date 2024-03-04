@@ -1,0 +1,26 @@
+seed_everything: 42
+trainer:
+  precision: 32-true
+  callbacks: 
+      - class_path: lightning.pytorch.callbacks.LearningRateMonitor
+      - class_path: lightning.pytorch.callbacks.EarlyStopping
+        init_args:
+            monitor: "val_loss"
+            patience: 5 
+      - class_path: lightning.pytorch.callbacks.TQDMProgressBar
+        init_args:
+            refresh_rate: 100
+  max_epochs: 500
+data:
+  data_dir: "/vol/research/ucdatasets/fluffy/PoseDataset/PoseData/"
+  train_type: 'gta'
+  test_type: 'gta'
+  batch_size: 16
+  n_workers: 0
+  pin_memory: false
+model:
+  sched: 'multi'
+  learning_rate: 1e-5
+  batch_size: 16
+  unfreeze: true
+ckpt_path: "last" 

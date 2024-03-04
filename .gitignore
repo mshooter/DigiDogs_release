@@ -1,0 +1,7 @@
+digidogs/datasets/
+digidogs.egg-info/
+**/__pycache__
+test.sh
+test_backup.sh
+train_backupv2.sh
+logs/

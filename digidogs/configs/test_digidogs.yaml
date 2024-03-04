@@ -1,0 +1,17 @@
+seed_everything: 42
+trainer:
+  precision: 32-true
+data:
+  data_dir: "/vol/research/ucdatasets/fluffy/PoseDataset/PoseData/"
+  train_type: 'gta'
+  test_type: 'gta'
+  batch_size: 16
+  n_workers: 4
+  pin_memory: false
+model:
+  sched: 'multi'
+  learning_rate: 1e-5
+  batch_size: 16
+  unfreeze: true
+ckpt_path: "/scratch/DigiDogs_release/checkpoints/gta_poseF16/epoch=15_val_loss=0.4664.ckpt"
+verbose: true 
