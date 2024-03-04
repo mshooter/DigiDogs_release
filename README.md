@@ -9,8 +9,8 @@ This work was presented at the "Computer Vision with Small Data: A Focus on Infa
 <img src="docs/dog1.gif" width="374"><img src="docs/dog2.gif" width="374"><img src="docs/dog3.gif" width="374"><img src="docs/dog5.gif" width="374"><img src="docs/dog4.gif" width="374"><img src="docs/dog6.gif" width="374"> 
 
 ### Environment 
-Normally if you execute the following the environment installation process will work. 
-Code has been used with CUDA 11.0, CudNN 8.3.2, Python 3.8 
+Code has been used with CUDA 11.0, CudNN 8.3.2, Python 3.8 on Ubuntu 18.04 
+Please execute the following:
 ```shell 
     git clone https://github.com/mshooter/DigiDogs_release.git
     cd DigiDogs_release
@@ -36,7 +36,7 @@ DigiDogs_release
 │   ├── test_digidogs.yaml
 │   ├── test_stanext.yaml
 ├── data
-│   ├── vis_images
+│   ├── \*.png
 ├── scripts
 │   └── demo.py
 │   └── launch.py
@@ -51,7 +51,7 @@ DigiDogs_release
 ### Demo/Inference 
 We are showing our method on internet images. 
 We already have put images in the folder, but if you want to do inference on your images:
-    1. Please put your images in the folder data/vis_images
+    1. Please put your images in the folder called data/
 The argument is: the image path to images to the images you want to apply the method to
 Argument "custom" needs to be put, indicating it is custom images.. 
 For example:
