@@ -1,4 +1,4 @@
-digidogs/datasets/
+build/
 digidogs.egg-info/
 **/__pycache__
 test.sh

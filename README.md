@@ -1,5 +1,9 @@
 # DigiDogs: Single-View 3D Pose Estimation of Dogs using Synthetic Training Data 
 ![teaser](docs/teaser.png)
+<img src="docs/dog1.gif" width="170"><img src="docs/dog2.gif" width="170"><img src="docs/dog3.gif" width="170"><img src="docs/dog5.gif" width="170"><img src="docs/dog4.gif" width="170"><img src="docs/dog6.gif" width="170"> 
+
+ 
+ 
 
 ### Description 
 This work was presented at the "Computer Vision with Small Data: A Focus on Infants and Endangered Animals (CV4Smalls)" workshop at WACV2024 and won the best paper award.
@@ -52,7 +56,7 @@ The argument is: the image path to images to the images you want to apply the me
 Argument "custom" needs to be put, indicating it is custom images.. 
 For example:
 ```shell
-    python script/demo.py custom path2folder/WACVCode/data/vis_images 
+    python script/demo.py custom DigiDogs_release/data/
 ```
 
 If you need to change the checkpoints, there are several checkpoints available in the checkpoint folder: 
