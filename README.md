@@ -1,12 +1,12 @@
 # DigiDogs: Single-View 3D Pose Estimation of Dogs using Synthetic Training Data 
-![teaser](docs/teaser.png)
-<img src="docs/dog1.gif" width="170"><img src="docs/dog2.gif" width="170"><img src="docs/dog3.gif" width="170"><img src="docs/dog5.gif" width="170"><img src="docs/dog4.gif" width="170"><img src="docs/dog6.gif" width="170"> 
-
- 
- 
 
 ### Description 
-This work was presented at the "Computer Vision with Small Data: A Focus on Infants and Endangered Animals (CV4Smalls)" workshop at WACV2024 and won the best paper award.
+This work was presented at the "Computer Vision with Small Data: A Focus on Infants and Endangered Animals [CV4Smalls](https://cv4smalls.sites.northeastern.edu/)" workshop at WACV2024 and won the **best paper award**.
+
+**[Paper](https://openaccess.thecvf.com/content/WACV2024W/CV4Smalls/papers/Shooter_DigiDogs_Single-View_3D_Pose_Estimation_of_Dogs_Using_Synthetic_Training_WACVW_2024_paper.pdf)** - **[FlashTalk](https://www.youtube.com/watch?v=9AVtmJYLD5I)**
+
+![teaser](docs/teaser.png)
+<img src="docs/dog1.gif" width="374"><img src="docs/dog2.gif" width="374"><img src="docs/dog3.gif" width="374"><img src="docs/dog5.gif" width="374"><img src="docs/dog4.gif" width="374"><img src="docs/dog6.gif" width="374"> 
 
 ### Environment 
 Normally if you execute the following the environment installation process will work. 
@@ -93,6 +93,18 @@ pip install opencv-python-headless
 
 ## TODO: 
 - [ ] Release test code. 
+
+## Citation
+```
+@InProceedings{Shooter_2024_WACV,
+author = {Shooter, Moira and Malleson, Charles and Hilton, Adrian},
+title = {DigiDogs: Single-View 3D Pose Estimation of Dogs Using Synthetic Training Data},
+booktitle = {Proceedings of the IEEE/CVF Winter Conference on Applications of Computer Vision (WACV) Workshops},
+month = {January},
+year = {2024},
+pages = {80-89}
+}
+```
 
 ## Contact information 
 Please contact [Moira Shooter](m.shooter@surrey.ac.uk) for enquiries
