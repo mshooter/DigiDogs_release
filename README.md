@@ -106,6 +106,22 @@ pages = {80-89}
 }
 ```
 
+## License 
+Please refer to the license file or below. 
+
+Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License (CC BY-NC-SA 4.0)
+
+Copyright (c) 2025 Moira Shooter, Charles Malleson, Adrian Hilton, University of Surrey
+
+This work is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License. 
+To view a copy of this license, visit http://creativecommons.org/licenses/by-nc-sa/4.0/
+
+BY: credit must be given to the creator(s).
+NC: Only noncommercial uses of the work are permitted.
+SA: Adaptations must be shared under the same terms.
+
+**Note** If you have any questions regarding the licensing please contact either Professor Adrian Hilton or Dr Charles Malleson. 
+
 ## Contact information 
 Please contact [Moira Shooter](m.shooter@surrey.ac.uk) for enquiries
 
