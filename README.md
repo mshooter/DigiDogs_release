@@ -123,5 +123,5 @@ SA: Adaptations must be shared under the same terms.
 **Note** If you have any questions regarding the licensing please contact either Professor Adrian Hilton or Dr Charles Malleson. 
 
 ## Contact information 
-Please contact [Moira Shooter](m.shooter@surrey.ac.uk) for enquiries
+Please contact [Moira Shooter](moira.shooter@hotmail.com) for enquiries
 
